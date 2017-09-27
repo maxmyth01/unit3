@@ -22,7 +22,7 @@ for i in range(13,28,2): # go up by 2 each time
 #add up the numbers from 1-5
 total = 0
 for i in range(1,6):
-    total = total+1
+    total = total+i
     
 print(total)
     

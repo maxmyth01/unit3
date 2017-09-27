@@ -7,4 +7,5 @@ num = input('Enter your favorite number: ')
 i=0
 while i in range(0,num):
     print(word)
+    i += 1
 

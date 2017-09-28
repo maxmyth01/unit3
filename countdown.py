@@ -5,9 +5,10 @@
 num = int(input('Enter a number: '))
 
 i=num
-if i > 0:
-    while i >= 0:
+
+while i >= 0:
+    if i > 0:
         print(i)
         i -= 1
-else:
-    print('Boom!')
+    else:
+        print('Boom!')

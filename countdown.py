@@ -7,8 +7,7 @@ num = int(input('Enter a number: '))
 i=num
 
 while i >= 0:
-    if i > 0:
-        print(i)
-        i -= 1
-    else:
-        print('Boom!')
+    print(i)
+    i -= 1
+    
+print('Boom!')

@@ -11,5 +11,5 @@ total = 0
 while i <= end:
     total = total + i
     i = i + step
-    print(total)
+print(total)
 

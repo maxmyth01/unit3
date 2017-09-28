@@ -7,6 +7,7 @@ end = int(input('Enter a final value: '))
 step = int(input('Enter the step: '))
 
 i=1
+total = 0
 while i <= end:
     total = total + i
     i = i + step

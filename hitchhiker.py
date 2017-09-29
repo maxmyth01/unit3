@@ -3,5 +3,6 @@
 #hitchhiker.py -- ask a Q or quit, answer always 42
 while True:
     q = input('Ask a question or quit: ')
-    if q == (quit):
+    print(42)
+    if q == ('quit'):
         break

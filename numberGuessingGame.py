@@ -5,7 +5,7 @@
 from random import randint
 
 guess = int(input('Guess a number between 1-100: '))
-num = randint(1,100)
+num = randint(1,1000)
 total = 0
 
 while num != guess:

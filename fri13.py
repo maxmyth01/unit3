@@ -10,7 +10,7 @@ print(today)
 day = weekday(date.today().year,date.today().month,date.today().day)
 print(day)
 
-"""
+
 i=0
 while i< 1:
     day = weekday(date.today().year,date.today().month,13)
@@ -18,4 +18,3 @@ print(day)
     if day == 4 and date.today().day == 13:
         print(today)
         i+=1
-"""

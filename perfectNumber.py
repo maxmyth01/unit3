@@ -4,11 +4,16 @@
 
 perfect = int(input('Enter a Number: '))
 
+total = 0
 i=1
 while i<= perfect:
     if perfect%i == 0:
         total = total+i
     i += 1
-print(total)
+    
+if total == perfect:
+    print(perfect,'is a perfect number.')
+else:
+    print(perfect,'is not a perfect number.')
 
 

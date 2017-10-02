@@ -4,7 +4,5 @@
 
 from datetime import date
 
-date.today().day
-date.today().month
-date.today().year
-
+today = date.today().day, date.today().month, date.today().year
+print(today)

@@ -4,7 +4,7 @@
 
 
 i=0
-while i =< 100000:
+while i <= 100000:
     if i //(3*10*17) ==0:
         print i
     i+= 1

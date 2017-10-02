@@ -6,3 +6,5 @@ from datetime import date
 
 today = date.today().day, date.today().month, date.today().year
 print(today)
+day = weekday(date.today().year,date.today().month,date.today().day)
+print(day)

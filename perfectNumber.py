@@ -6,9 +6,9 @@ perfect = int(input('Enter a Number: '))
 
 total = 0
 i=1
-while i<= perfect:
-    if perfect%i == 0:
-        total = total+i
+while i< perfect:
+    if perfect % i == 0:
+        total = total + i
     i += 1
     
 if total == perfect:

@@ -13,5 +13,5 @@ while numCorrect < 5:
     if answer == num1+num2:
         numCorrect += 1
     else:
-        numCorrect = 0
-print('good job')
+        print('The answer was', num1+num2)
+print('Congratulations! You win! ')

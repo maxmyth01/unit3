@@ -18,4 +18,4 @@ while i< 5:
     if day == 4:
         print('fri 13')
         i+=1
-    date.today() = date.today() + 1
+    date.today() = date.today().month +1  

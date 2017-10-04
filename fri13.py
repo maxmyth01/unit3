@@ -21,6 +21,6 @@ while i< 10:
         print('fri 13')
         i+=1
     month = month + 1 
-    if month >=12:
-        month = 0
+    if month >12:
+        month = 1
         year += 1 

@@ -14,7 +14,7 @@ print(day)
 i=0
 while i< 1:
     day = weekday(date.today().year,date.today().month,13)
-print(day)
-    if day == 4 and date.today().day == 13:
-        print(today)
+    print(day)
+    if day == 4:
+        print('fri 13')
         i+=1

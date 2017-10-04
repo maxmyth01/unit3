@@ -6,15 +6,15 @@ word = input('Enter a word: ')
 
 for ch in word:
     if ch == 'a':
-        print(text.upper())
+        print(ch.upper())
     elif ch == 'e':
-        print(text.upper())
+        print(ch.upper())
     elif ch == 'i':
-        print(text.upper())
+        print(ch.upper())
     elif ch == 'o':
-        print(text.upper())
+        print(ch.upper())
     elif ch == 'u':
-        print(text.upper())
+        print(ch.upper())
     else:
         print(ch)
 

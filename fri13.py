@@ -12,9 +12,10 @@ print(day)
 
 
 i=0
-while i< 1:
+while i< 5:
     day = weekday(date.today().year,date.today().month,13)
     print(day)
     if day == 4:
         print('fri 13')
         i+=1
+    date.today() = date.today() + 1

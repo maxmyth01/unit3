@@ -17,7 +17,6 @@ i=0
 while i< 10:
     day = weekday(year,month,13)
     if day == 4:
-        print('fri 13')
         print(month, '13', year)
         i+=1
     month = month + 1 

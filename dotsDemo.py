@@ -9,5 +9,5 @@ red = Color(0xFF0000,1)
 
 dot = CircleAsset(20,LineStyle(1,red),red)
 
-Sprite(dot)
-App().red()
+Sprite(dot,(20,20))
+App().run()

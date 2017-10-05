@@ -24,5 +24,7 @@ while change >= 1
     change - 1
     p += 1
     
+print(q, d, n, p)
+    
 
     

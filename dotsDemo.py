@@ -7,7 +7,7 @@ from ggame import *
 
 red = Color(0xFF0000,1)
 
-dot = circleAsset(20,LineStyle(1,red),red)
+dot = CircleAsset(20,LineStyle(1,red),red)
 
 Sprite(dot)
-app().red()
+App().red()

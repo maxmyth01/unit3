@@ -9,19 +9,19 @@ n= 0
 p= 0
 
 while change > 25:
-    change - 25 
+    change = change - 25 
     q += 1
     
 while change > 10
-    change - 10
+    change = change - 10
     d += 1
     
 while change > 5
-    change - 5
+    change = change - 5
     n += 1
     
 while change >= 1
-    change - 1
+    change = change - 1
     p += 1
     
 print(q, d, n, p)

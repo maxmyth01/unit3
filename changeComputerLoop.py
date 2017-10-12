@@ -24,7 +24,10 @@ while change >= 1:
     change = change - 1
     p += 1
     
-print(q, d, n, p)
-print('Quarters: ',q,'Dimes: ',d,'Nickels: ',n,'Pennies: ',p)    
+
+print('Quarters: ',q)
+print('Dimes: ',d)
+print('Nickels: ',n)
+print('Pennies: ',p)    
 
     

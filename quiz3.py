@@ -18,5 +18,7 @@ while q <= 331:
 print(total)
 
 word = input('Enter a word')
-while 'z' is not in word:
+while True:
+    if 'z' in word:
+        break
     word = input('Enter a word')

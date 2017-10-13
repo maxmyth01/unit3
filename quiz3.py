@@ -20,6 +20,5 @@ print(total)
 word = input('Enter a word')
 if 'z' in word:
     print(word)
-    break
 else:
     word = input('Enter a word')

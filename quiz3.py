@@ -14,6 +14,6 @@ z = 13
 total = 0
 while z <= 331:
     total = total + z
-    z +=1 
+    z +=2 
 print(total)
     

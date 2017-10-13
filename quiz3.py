@@ -15,4 +15,5 @@ total = 0
 while z <= 331:
     total = total + z
     z +=1 
+print(total)
     

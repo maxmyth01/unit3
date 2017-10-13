@@ -10,10 +10,16 @@ while j <= 32:
     print(j)
     j += 2
 
-z = 13
+q = 13
 total = 0
-while z <= 331:
-    total = total + z
-    z +=2 
+while q <= 331:
+    total = total + q
+    q +=2 
 print(total)
     
+word = input('Enter a word')
+if 'z' in word:
+    print(word)
+    break
+else:
+    word = input('Enter a word')

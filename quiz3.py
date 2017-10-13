@@ -17,8 +17,8 @@ while q <= 331:
     q +=2 
 print(total)
 
-word = input('Enter a word')
+word = input('Enter a word: ')
 while True:
     if 'z' in word:
         break
-    word = input('Enter a word')
+    word = input('Enter a word: ')

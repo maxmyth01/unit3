@@ -16,9 +16,7 @@ while q <= 331:
     total = total + q
     q +=2 
 print(total)
-    
+
 word = input('Enter a word')
-if 'z' in word:
-    print(word)
-else:
+while 'z' is not in word:
     word = input('Enter a word')
